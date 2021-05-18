@@ -9,5 +9,5 @@
   <li>Dices Game</li>
   <li>Drum Kit</li>
   <li>Flappy Bird</li>
-  <li>Calulator</li>
+  <li>calculator</li>
   </ol>
