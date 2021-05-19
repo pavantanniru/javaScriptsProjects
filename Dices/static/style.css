@@ -1,0 +1,64 @@
+
+/* importing custom text using Browser Fonts or Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
+body{
+    background-color:#fff5ab;
+    margin:0;
+}
+
+.container{
+  text-align:center;
+  width:70%;
+  margin:auto;
+}
+
+.dice{
+  display:inline-block;
+  margin:3%;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size:4.5rem;
+  margin:30px;
+}
+
+.bottom{
+  padding-top:30px;
+}
+
+
+.btun{
+
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Georgia;
+  color: #f7fd04;
+  font-size: 44px;
+  padding: 10px 21px 14px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+
+
+.btun:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #09141c);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #09141c);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #09141c);
+  background-image: -o-linear-gradient(top, #3cb0fd, #09141c);
+  background-image: linear-gradient(to bottom, #3cb0fd, #09141c);
+  text-decoration: none;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dices Game  </title>
+
+    <!-- Dice-game-logo -->
+    <link rel="shortcut icon" href="static\logo.ico">
+
+
+    <link rel="stylesheet" href="static\style.css">
+  </head>
+  <body>
+
+
+    <div class="container">
+
+      <h1>Dice Game</h1>
+
+      <h1 class="winner">let's play</h1>
+
+      <div class="dice">
+        <p class="player1">player one</p>
+        <img id='img1' src="static/images/dice-6.jpg" alt="dice6">
+
+      </div>
+
+      <div class="dice">
+        <p class="player2">player two</p>
+        <img id="img2" src="static/images/dice-6.jpg" alt="dice6">
+
+
+      </div>
+
+    </div>
+
+    <div class="container bottom">
+      <button class="btun" type="button" onclick="rollTheDice()" name="button">Roll The Dices</button>
+
+    </div>
+
+    <div class="container bottom">
+
+      <button class="btun" type="button" onclick="editNames()"  name="button">Edit Names</button>
+
+
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
