@@ -8,6 +8,5 @@
 <ol>
   <li>Dices Game</li>
   <li>Drum Kit</li>
-  <li>Flappy Bird</li>
   <li>calculator</li>
   </ol>
